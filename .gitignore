@@ -56,6 +56,4 @@ typings/
 
 # dotenv environment variables file
 .env
-.idea/SoftwareTesting.iml
-.idea/modules.xml
-.idea/workspace.xml
+.idea/
