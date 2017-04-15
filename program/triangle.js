@@ -60,5 +60,3 @@ function getTriangleType(a, b, c) {
 }
 
 module.exports = getTriangleType;
-
-

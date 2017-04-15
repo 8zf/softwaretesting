@@ -2,14 +2,14 @@
   "stats": {
     "suites": 1,
     "tests": 9,
-    "passes": 8,
+    "passes": 9,
     "pending": 0,
-    "failures": 1,
-    "start": "2017-04-14T06:55:48.160Z",
-    "end": "2017-04-14T06:55:48.191Z",
-    "duration": 31,
+    "failures": 0,
+    "start": "2017-04-15T06:01:50.801Z",
+    "end": "2017-04-15T06:01:50.823Z",
+    "duration": 22,
     "testsRegistered": 9,
-    "passPercent": 88.9,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -38,8 +38,8 @@
             "code": "expect(getTriangleType(\"excuse\", 23, 45)).to.be.equal(\"输入类型错误\");",
             "err": {},
             "isRoot": false,
-            "uuid": "9728ce84-1563-4231-8c1d-b9a5a23c027b",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "9efed5f3-b05d-42e8-a0ed-c96acba1f13f",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           },
           {
@@ -55,8 +55,8 @@
             "code": "expect(getTriangleType(-1, 4, 5)).to.be.equal(\"边必须为正数\");",
             "err": {},
             "isRoot": false,
-            "uuid": "4b779c41-6058-4ccc-b073-2b5accecf6c7",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "e224fcf3-6420-4e63-9092-4c9abc58eb00",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           },
           {
@@ -72,8 +72,8 @@
             "code": "expect(getTriangleType(3, 3, 3)).to.be.equal(\"等边三角形\");",
             "err": {},
             "isRoot": false,
-            "uuid": "e4fef591-d194-4182-bf9f-4c28f41b03ee",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "498eae01-8647-45bf-90b5-2c2f22f5be91",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           },
           {
@@ -89,8 +89,8 @@
             "code": "expect(getTriangleType(3, 4, 5)).to.be.equal(\"直角三角形\");",
             "err": {},
             "isRoot": false,
-            "uuid": "83eed73f-c202-4698-98bd-15a7b83083f3",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "103e34d1-9c80-40be-8c62-4740ee1d448e",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           },
           {
@@ -106,15 +106,15 @@
             "code": "expect(getTriangleType(1, 1, Math.sqrt(2))).to.be.equal(\"等腰直角三角形\");",
             "err": {},
             "isRoot": false,
-            "uuid": "9c70dd11-f348-42f1-b117-ca111214b535",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "1543f809-b78f-4c0c-af83-3bb106feb882",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           },
           {
             "title": "判断等腰三角形类型（锐角）",
             "fullTitle": "三角形类型判断测试 判断等腰三角形类型（锐角）",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -123,8 +123,8 @@
             "code": "expect(getTriangleType(3, 3, 4)).to.be.equal(\"等腰锐角三角形\");",
             "err": {},
             "isRoot": false,
-            "uuid": "d2b866bd-d959-43cc-933d-65ca7161037d",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "eb613bd9-f72c-460b-908d-1df814f01a65",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           },
           {
@@ -140,8 +140,8 @@
             "code": "expect(getTriangleType(4, 4, 7)).to.be.equal(\"等腰钝角三角形\");",
             "err": {},
             "isRoot": false,
-            "uuid": "fd661fa7-2daa-462c-95bb-e3ea375c98ee",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "152c5277-1109-45dd-af54-dedb87b94c9e",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           },
           {
@@ -157,42 +157,34 @@
             "code": "expect(getTriangleType(23, 45, 21)).to.be.equal(\"不能构成三角形\");",
             "err": {},
             "isRoot": false,
-            "uuid": "3dfd17d2-deb1-49e5-ba5b-9b54ba6fb01b",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "c6fea6bf-834b-4f78-a8a9-d02f7a738404",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           },
           {
-            "title": "只是普通的三角形",
-            "fullTitle": "三角形类型判断测试 只是普通的三角形",
+            "title": "判断钝角三角形",
+            "fullTitle": "三角形类型判断测试 判断钝角三角形",
             "timedOut": false,
             "duration": 0,
-            "state": "failed",
-            "pass": false,
-            "fail": true,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
             "pending": false,
-            "code": "expect(getTriangleType(2, 3, 4)).to.be.equal(\"普通三角形\");",
-            "err": {
-              "name": "AssertionError",
-              "message": "expected '钝角三角形' to equal '普通三角形'",
-              "showDiff": true,
-              "actual": "钝角三角形",
-              "expected": "普通三角形",
-              "estack": "AssertionError: expected '钝角三角形' to equal '普通三角形'\n    at Context.<anonymous> (triangle.test.js:30:42)\n    at callFn (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runnable.js:345:21)\n    at Test.Runnable.run (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runnable.js:337:7)\n    at Runner.runTest (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:444:10)\n    at D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:550:12\n    at next (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:361:14)\n    at D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:371:7\n    at next (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:295:14)\n    at Immediate._onImmediate (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:339:5)",
-              "diff": "- 钝角三角形\n+ 普通三角形\n",
-              "stack": "AssertionError: expected '钝角三角形' to equal '普通三角形'\n    at Context.<anonymous> (triangle.test.js:30:42)\n    at callFn (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runnable.js:345:21)\n    at Test.Runnable.run (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runnable.js:337:7)\n    at Runner.runTest (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:444:10)\n    at D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:550:12\n    at next (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:361:14)\n    at D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:371:7\n    at next (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:295:14)\n    at Immediate._onImmediate (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:339:5)"
-            },
+            "code": "expect(getTriangleType(2, 3, 4)).to.be.equal(\"钝角三角形\");",
+            "err": {},
             "isRoot": false,
-            "uuid": "699b9f68-04e6-48d3-be13-5d47be062b13",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "da9fef00-7ad4-411c-94ee-9c769a6069f9",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           }
         ],
         "pending": [],
         "root": false,
         "_timeout": 2000,
-        "file": "\\triangle.test.js",
-        "uuid": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
-        "fullFile": "C:\\Users\\zhang\\Desktop\\软测\\SoftwareTesting\\triangle.test.js",
+        "file": "\\test\\triangle.test.js",
+        "uuid": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
+        "fullFile": "C:\\Users\\zhang\\Desktop\\软测\\SoftwareTesting\\test\\triangle.test.js",
         "passes": [
           {
             "title": "类型输入错误时提醒输入错误",
@@ -207,8 +199,8 @@
             "code": "expect(getTriangleType(\"excuse\", 23, 45)).to.be.equal(\"输入类型错误\");",
             "err": {},
             "isRoot": false,
-            "uuid": "9728ce84-1563-4231-8c1d-b9a5a23c027b",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "9efed5f3-b05d-42e8-a0ed-c96acba1f13f",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           },
           {
@@ -224,8 +216,8 @@
             "code": "expect(getTriangleType(-1, 4, 5)).to.be.equal(\"边必须为正数\");",
             "err": {},
             "isRoot": false,
-            "uuid": "4b779c41-6058-4ccc-b073-2b5accecf6c7",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "e224fcf3-6420-4e63-9092-4c9abc58eb00",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           },
           {
@@ -241,8 +233,8 @@
             "code": "expect(getTriangleType(3, 3, 3)).to.be.equal(\"等边三角形\");",
             "err": {},
             "isRoot": false,
-            "uuid": "e4fef591-d194-4182-bf9f-4c28f41b03ee",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "498eae01-8647-45bf-90b5-2c2f22f5be91",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           },
           {
@@ -258,8 +250,8 @@
             "code": "expect(getTriangleType(3, 4, 5)).to.be.equal(\"直角三角形\");",
             "err": {},
             "isRoot": false,
-            "uuid": "83eed73f-c202-4698-98bd-15a7b83083f3",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "103e34d1-9c80-40be-8c62-4740ee1d448e",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           },
           {
@@ -275,15 +267,15 @@
             "code": "expect(getTriangleType(1, 1, Math.sqrt(2))).to.be.equal(\"等腰直角三角形\");",
             "err": {},
             "isRoot": false,
-            "uuid": "9c70dd11-f348-42f1-b117-ca111214b535",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "1543f809-b78f-4c0c-af83-3bb106feb882",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           },
           {
             "title": "判断等腰三角形类型（锐角）",
             "fullTitle": "三角形类型判断测试 判断等腰三角形类型（锐角）",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -292,8 +284,8 @@
             "code": "expect(getTriangleType(3, 3, 4)).to.be.equal(\"等腰锐角三角形\");",
             "err": {},
             "isRoot": false,
-            "uuid": "d2b866bd-d959-43cc-933d-65ca7161037d",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "eb613bd9-f72c-460b-908d-1df814f01a65",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           },
           {
@@ -309,8 +301,8 @@
             "code": "expect(getTriangleType(4, 4, 7)).to.be.equal(\"等腰钝角三角形\");",
             "err": {},
             "isRoot": false,
-            "uuid": "fd661fa7-2daa-462c-95bb-e3ea375c98ee",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "152c5277-1109-45dd-af54-dedb87b94c9e",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           },
           {
@@ -326,51 +318,42 @@
             "code": "expect(getTriangleType(23, 45, 21)).to.be.equal(\"不能构成三角形\");",
             "err": {},
             "isRoot": false,
-            "uuid": "3dfd17d2-deb1-49e5-ba5b-9b54ba6fb01b",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "c6fea6bf-834b-4f78-a8a9-d02f7a738404",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
-          }
-        ],
-        "failures": [
+          },
           {
-            "title": "只是普通的三角形",
-            "fullTitle": "三角形类型判断测试 只是普通的三角形",
+            "title": "判断钝角三角形",
+            "fullTitle": "三角形类型判断测试 判断钝角三角形",
             "timedOut": false,
             "duration": 0,
-            "state": "failed",
-            "pass": false,
-            "fail": true,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
             "pending": false,
-            "code": "expect(getTriangleType(2, 3, 4)).to.be.equal(\"普通三角形\");",
-            "err": {
-              "name": "AssertionError",
-              "message": "expected '钝角三角形' to equal '普通三角形'",
-              "showDiff": true,
-              "actual": "钝角三角形",
-              "expected": "普通三角形",
-              "estack": "AssertionError: expected '钝角三角形' to equal '普通三角形'\n    at Context.<anonymous> (triangle.test.js:30:42)\n    at callFn (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runnable.js:345:21)\n    at Test.Runnable.run (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runnable.js:337:7)\n    at Runner.runTest (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:444:10)\n    at D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:550:12\n    at next (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:361:14)\n    at D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:371:7\n    at next (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:295:14)\n    at Immediate._onImmediate (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:339:5)",
-              "diff": "- 钝角三角形\n+ 普通三角形\n",
-              "stack": "AssertionError: expected '钝角三角形' to equal '普通三角形'\n    at Context.<anonymous> (triangle.test.js:30:42)\n    at callFn (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runnable.js:345:21)\n    at Test.Runnable.run (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runnable.js:337:7)\n    at Runner.runTest (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:444:10)\n    at D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:550:12\n    at next (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:361:14)\n    at D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:371:7\n    at next (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:295:14)\n    at Immediate._onImmediate (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:339:5)"
-            },
+            "code": "expect(getTriangleType(2, 3, 4)).to.be.equal(\"钝角三角形\");",
+            "err": {},
             "isRoot": false,
-            "uuid": "699b9f68-04e6-48d3-be13-5d47be062b13",
-            "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+            "uuid": "da9fef00-7ad4-411c-94ee-9c769a6069f9",
+            "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
             "skipped": false
           }
         ],
+        "failures": [],
         "skipped": [],
         "hasTests": true,
         "hasSuites": false,
         "totalTests": 9,
-        "totalPasses": 8,
-        "totalFailures": 1,
+        "totalPasses": 9,
+        "totalFailures": 0,
         "totalPending": 0,
         "totalSkipped": 0,
         "hasPasses": true,
-        "hasFailures": true,
+        "hasFailures": false,
         "hasPending": false,
         "hasSkipped": false,
-        "duration": 0,
+        "duration": 1,
         "rootEmpty": false
       }
     ],
@@ -378,7 +361,7 @@
     "pending": [],
     "root": true,
     "_timeout": 2000,
-    "uuid": "85535793-b45b-47fe-8c22-7be869b2e8c5",
+    "uuid": "4d6ade00-c0b5-4bd5-af46-5dd3f30c85d3",
     "fullFile": "",
     "file": "",
     "passes": [],
@@ -412,8 +395,8 @@
       "code": "expect(getTriangleType(\"excuse\", 23, 45)).to.be.equal(\"输入类型错误\");",
       "err": {},
       "isRoot": false,
-      "uuid": "9728ce84-1563-4231-8c1d-b9a5a23c027b",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "9efed5f3-b05d-42e8-a0ed-c96acba1f13f",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     },
     {
@@ -429,8 +412,8 @@
       "code": "expect(getTriangleType(-1, 4, 5)).to.be.equal(\"边必须为正数\");",
       "err": {},
       "isRoot": false,
-      "uuid": "4b779c41-6058-4ccc-b073-2b5accecf6c7",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "e224fcf3-6420-4e63-9092-4c9abc58eb00",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     },
     {
@@ -446,8 +429,8 @@
       "code": "expect(getTriangleType(3, 3, 3)).to.be.equal(\"等边三角形\");",
       "err": {},
       "isRoot": false,
-      "uuid": "e4fef591-d194-4182-bf9f-4c28f41b03ee",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "498eae01-8647-45bf-90b5-2c2f22f5be91",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     },
     {
@@ -463,8 +446,8 @@
       "code": "expect(getTriangleType(3, 4, 5)).to.be.equal(\"直角三角形\");",
       "err": {},
       "isRoot": false,
-      "uuid": "83eed73f-c202-4698-98bd-15a7b83083f3",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "103e34d1-9c80-40be-8c62-4740ee1d448e",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     },
     {
@@ -480,15 +463,15 @@
       "code": "expect(getTriangleType(1, 1, Math.sqrt(2))).to.be.equal(\"等腰直角三角形\");",
       "err": {},
       "isRoot": false,
-      "uuid": "9c70dd11-f348-42f1-b117-ca111214b535",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "1543f809-b78f-4c0c-af83-3bb106feb882",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     },
     {
       "title": "判断等腰三角形类型（锐角）",
       "fullTitle": "三角形类型判断测试 判断等腰三角形类型（锐角）",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -497,8 +480,8 @@
       "code": "expect(getTriangleType(3, 3, 4)).to.be.equal(\"等腰锐角三角形\");",
       "err": {},
       "isRoot": false,
-      "uuid": "d2b866bd-d959-43cc-933d-65ca7161037d",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "eb613bd9-f72c-460b-908d-1df814f01a65",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     },
     {
@@ -514,8 +497,8 @@
       "code": "expect(getTriangleType(4, 4, 7)).to.be.equal(\"等腰钝角三角形\");",
       "err": {},
       "isRoot": false,
-      "uuid": "fd661fa7-2daa-462c-95bb-e3ea375c98ee",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "152c5277-1109-45dd-af54-dedb87b94c9e",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     },
     {
@@ -531,33 +514,25 @@
       "code": "expect(getTriangleType(23, 45, 21)).to.be.equal(\"不能构成三角形\");",
       "err": {},
       "isRoot": false,
-      "uuid": "3dfd17d2-deb1-49e5-ba5b-9b54ba6fb01b",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "c6fea6bf-834b-4f78-a8a9-d02f7a738404",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     },
     {
-      "title": "只是普通的三角形",
-      "fullTitle": "三角形类型判断测试 只是普通的三角形",
+      "title": "判断钝角三角形",
+      "fullTitle": "三角形类型判断测试 判断钝角三角形",
       "timedOut": false,
       "duration": 0,
-      "state": "failed",
-      "pass": false,
-      "fail": true,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
       "pending": false,
-      "code": "expect(getTriangleType(2, 3, 4)).to.be.equal(\"普通三角形\");",
-      "err": {
-        "name": "AssertionError",
-        "message": "expected '钝角三角形' to equal '普通三角形'",
-        "showDiff": true,
-        "actual": "钝角三角形",
-        "expected": "普通三角形",
-        "estack": "AssertionError: expected '钝角三角形' to equal '普通三角形'\n    at Context.<anonymous> (triangle.test.js:30:42)\n    at callFn (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runnable.js:345:21)\n    at Test.Runnable.run (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runnable.js:337:7)\n    at Runner.runTest (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:444:10)\n    at D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:550:12\n    at next (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:361:14)\n    at D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:371:7\n    at next (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:295:14)\n    at Immediate._onImmediate (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:339:5)",
-        "diff": "- 钝角三角形\n+ 普通三角形\n",
-        "stack": "AssertionError: expected '钝角三角形' to equal '普通三角形'\n    at Context.<anonymous> (triangle.test.js:30:42)\n    at callFn (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runnable.js:345:21)\n    at Test.Runnable.run (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runnable.js:337:7)\n    at Runner.runTest (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:444:10)\n    at D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:550:12\n    at next (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:361:14)\n    at D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:371:7\n    at next (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:295:14)\n    at Immediate._onImmediate (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:339:5)"
-      },
+      "code": "expect(getTriangleType(2, 3, 4)).to.be.equal(\"钝角三角形\");",
+      "err": {},
       "isRoot": false,
-      "uuid": "699b9f68-04e6-48d3-be13-5d47be062b13",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "da9fef00-7ad4-411c-94ee-9c769a6069f9",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     }
   ],
@@ -576,8 +551,8 @@
       "code": "expect(getTriangleType(\"excuse\", 23, 45)).to.be.equal(\"输入类型错误\");",
       "err": {},
       "isRoot": false,
-      "uuid": "9728ce84-1563-4231-8c1d-b9a5a23c027b",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "9efed5f3-b05d-42e8-a0ed-c96acba1f13f",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     },
     {
@@ -593,8 +568,8 @@
       "code": "expect(getTriangleType(-1, 4, 5)).to.be.equal(\"边必须为正数\");",
       "err": {},
       "isRoot": false,
-      "uuid": "4b779c41-6058-4ccc-b073-2b5accecf6c7",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "e224fcf3-6420-4e63-9092-4c9abc58eb00",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     },
     {
@@ -610,8 +585,8 @@
       "code": "expect(getTriangleType(3, 3, 3)).to.be.equal(\"等边三角形\");",
       "err": {},
       "isRoot": false,
-      "uuid": "e4fef591-d194-4182-bf9f-4c28f41b03ee",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "498eae01-8647-45bf-90b5-2c2f22f5be91",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     },
     {
@@ -627,8 +602,8 @@
       "code": "expect(getTriangleType(3, 4, 5)).to.be.equal(\"直角三角形\");",
       "err": {},
       "isRoot": false,
-      "uuid": "83eed73f-c202-4698-98bd-15a7b83083f3",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "103e34d1-9c80-40be-8c62-4740ee1d448e",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     },
     {
@@ -644,15 +619,15 @@
       "code": "expect(getTriangleType(1, 1, Math.sqrt(2))).to.be.equal(\"等腰直角三角形\");",
       "err": {},
       "isRoot": false,
-      "uuid": "9c70dd11-f348-42f1-b117-ca111214b535",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "1543f809-b78f-4c0c-af83-3bb106feb882",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     },
     {
       "title": "判断等腰三角形类型（锐角）",
       "fullTitle": "三角形类型判断测试 判断等腰三角形类型（锐角）",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -661,8 +636,8 @@
       "code": "expect(getTriangleType(3, 3, 4)).to.be.equal(\"等腰锐角三角形\");",
       "err": {},
       "isRoot": false,
-      "uuid": "d2b866bd-d959-43cc-933d-65ca7161037d",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "eb613bd9-f72c-460b-908d-1df814f01a65",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     },
     {
@@ -678,8 +653,8 @@
       "code": "expect(getTriangleType(4, 4, 7)).to.be.equal(\"等腰钝角三角形\");",
       "err": {},
       "isRoot": false,
-      "uuid": "fd661fa7-2daa-462c-95bb-e3ea375c98ee",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "152c5277-1109-45dd-af54-dedb87b94c9e",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     },
     {
@@ -695,37 +670,28 @@
       "code": "expect(getTriangleType(23, 45, 21)).to.be.equal(\"不能构成三角形\");",
       "err": {},
       "isRoot": false,
-      "uuid": "3dfd17d2-deb1-49e5-ba5b-9b54ba6fb01b",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "c6fea6bf-834b-4f78-a8a9-d02f7a738404",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
-    }
-  ],
-  "allFailures": [
+    },
     {
-      "title": "只是普通的三角形",
-      "fullTitle": "三角形类型判断测试 只是普通的三角形",
+      "title": "判断钝角三角形",
+      "fullTitle": "三角形类型判断测试 判断钝角三角形",
       "timedOut": false,
       "duration": 0,
-      "state": "failed",
-      "pass": false,
-      "fail": true,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
       "pending": false,
-      "code": "expect(getTriangleType(2, 3, 4)).to.be.equal(\"普通三角形\");",
-      "err": {
-        "name": "AssertionError",
-        "message": "expected '钝角三角形' to equal '普通三角形'",
-        "showDiff": true,
-        "actual": "钝角三角形",
-        "expected": "普通三角形",
-        "estack": "AssertionError: expected '钝角三角形' to equal '普通三角形'\n    at Context.<anonymous> (triangle.test.js:30:42)\n    at callFn (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runnable.js:345:21)\n    at Test.Runnable.run (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runnable.js:337:7)\n    at Runner.runTest (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:444:10)\n    at D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:550:12\n    at next (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:361:14)\n    at D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:371:7\n    at next (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:295:14)\n    at Immediate._onImmediate (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:339:5)",
-        "diff": "- 钝角三角形\n+ 普通三角形\n",
-        "stack": "AssertionError: expected '钝角三角形' to equal '普通三角形'\n    at Context.<anonymous> (triangle.test.js:30:42)\n    at callFn (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runnable.js:345:21)\n    at Test.Runnable.run (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runnable.js:337:7)\n    at Runner.runTest (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:444:10)\n    at D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:550:12\n    at next (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:361:14)\n    at D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:371:7\n    at next (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:295:14)\n    at Immediate._onImmediate (D:\\nodejs\\node_modules\\.mocha_npminstall\\mocha\\3.2.0\\mocha\\lib\\runner.js:339:5)"
-      },
+      "code": "expect(getTriangleType(2, 3, 4)).to.be.equal(\"钝角三角形\");",
+      "err": {},
       "isRoot": false,
-      "uuid": "699b9f68-04e6-48d3-be13-5d47be062b13",
-      "parentUUID": "2cb7f37d-dddf-4c74-96e4-fed0eb0680f9",
+      "uuid": "da9fef00-7ad4-411c-94ee-9c769a6069f9",
+      "parentUUID": "a0d9b37d-731b-4eb2-bb77-a01737bea265",
       "skipped": false
     }
   ],
+  "allFailures": [],
   "copyrightYear": 2017
 }

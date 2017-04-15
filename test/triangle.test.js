@@ -1,4 +1,4 @@
-var getTriangleType = require("./triangle");
+var getTriangleType = require("./../program/triangle");
 var expect = require('chai').expect;
 
 describe('三角形类型判断测试', function () {
@@ -28,7 +28,7 @@ describe('三角形类型判断测试', function () {
 	it('三遍不能构成三角形时输出错误', function () {
 		expect(getTriangleType(23, 45, 21)).to.be.equal("不能构成三角形");
 	});
-	it('只是普通的三角形', function () {
-		expect(getTriangleType(2, 3, 4)).to.be.equal("普通三角形");
+	it('判断钝角三角形', function () {
+		expect(getTriangleType(2, 3, 4)).to.be.equal("钝角三角形");
 	});
 });
